@@ -18,9 +18,9 @@ li {
 }
 
 img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
+    width: 35%;
+    height: 25%;
+    max-width: 0 auto;
 }
 
 main {
@@ -30,6 +30,10 @@ main {
 nav {
     background-color: beige;
     padding: 10px;
+}
+
+nav {
+    width: 100%;
 }
 
 nav ul {
@@ -53,14 +57,15 @@ nav a:hover {
 }
 
 #banner {
-    width: 100%;
-    height: auto;
+    width: 35%;
+    height: 25%;
     background-color: white;
 }
 
 #banner img {
-    width: 60%;
+    width: 100%;
     height: auto;
+    margin: 0 auto;
 }
 
 .service {
@@ -84,3 +89,27 @@ th {
     border: 1px solid black;
     padding: 5px;
 }
+
+.topnav {
+    background-color: #beige;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: center;
+    color: green;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+ 
+  .topnav{
+    color: green;
+  }
+  
+  
+  .topnav a.active {
+    color: green;
+  }
